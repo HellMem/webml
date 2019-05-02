@@ -22,13 +22,13 @@ def iris_model(request):
     """
     if request.method == 'GET':
         q = request.GET.get('q', '')
-		qw = request.GET.get('qw', '')
+        qw = request.GET.get('qw', '')
         cosa = {}
         cosa["cosilla"] = "cosilla"
         cosa["12"] = "12"
         cosa["arbol"] = "arbol"
         cosa["q"] = q
-		cosa["qw"] = qw
+        cosa["qw"] = qw
 
         return JSONResponse(cosa)
     elif request.method == 'POST':
