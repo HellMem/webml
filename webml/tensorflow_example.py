@@ -1,4 +1,4 @@
-from sagemaker.tensorflow import TensorFlow
+#from sagemaker.tensorflow import TensorFlow
 import numpy as np  # linear algebra
 
 import pandas as pd

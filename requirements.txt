@@ -47,7 +47,6 @@ pywin32==224
 PyYAML==3.13
 requests==2.20.1
 s3transfer==0.2.0
-sagemaker==1.19.0
 scipy==1.2.1
 six==1.12.0
 sqlparse==0.3.0
