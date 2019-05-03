@@ -1,8 +1,6 @@
 from sagemaker.tensorflow import TensorFlow
 import numpy as np  # linear algebra
-import seaborn as sns
 
-sns.set(style='whitegrid')
 import pandas as pd
 import matplotlib.pyplot as plt
 import tensorflow as tf
