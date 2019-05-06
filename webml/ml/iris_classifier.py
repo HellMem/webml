@@ -187,12 +187,15 @@ def train(features, labels, weights, lr, iters):
 
     return weights, cost_history
 
+'''
 
 if __name__ == "__main__":
     classes = predict_labels(6.4, 3.2, 4.5, 1.5)
     #sg_classes = sm.iris_prediction(6.4, 3.2, 4.5, 1.5)
     #print(sg_classes)
     print(classes)
+    
+    '''
     
 
 
