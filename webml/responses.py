@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
 
-from .ml.iris_classifier import *
+#from .ml.iris_classifier import *
 from .sagemaker.iris_classifier_sm import *
 
 
@@ -29,11 +29,11 @@ def iris_model(request):
         petal_length = float(request.GET.get('petal_length', '0.0'))
         petal_width = float(request.GET.get('petal_width', '0.0'))
 
-        classes = predict_labels(sepal_length, sepal_width, petal_length, petal_width)
+        #classes = predict_labels(sepal_length, sepal_width, petal_length, petal_width)
         #sm_classes = iris_prediction(sepal_length, sepal_width, petal_length, petal_width)
 
         response = {}
-        response['Pred'] = classes
+        #response['Pred'] = classes
         #response['PredSM'] = sm_classes
 
         return JSONResponse(response)
