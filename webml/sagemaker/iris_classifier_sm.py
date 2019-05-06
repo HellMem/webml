@@ -1,3 +1,5 @@
+
+'''
 import requests
 import json
 
@@ -25,3 +27,5 @@ def iris_prediction(sepal_length, sepal_width, petal_length, petal_width):
 if __name__ == "__main__":
     pred =iris_prediction(6.4, 3.2, 4.5, 1.5)
     print(pred)
+
+'''

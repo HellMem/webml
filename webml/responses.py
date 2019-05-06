@@ -30,11 +30,11 @@ def iris_model(request):
         petal_width = float(request.GET.get('petal_width', '0.0'))
 
         classes = predict_labels(sepal_length, sepal_width, petal_length, petal_width)
-        sm_classes = iris_prediction(sepal_length, sepal_width, petal_length, petal_width)
+        #sm_classes = iris_prediction(sepal_length, sepal_width, petal_length, petal_width)
 
         response = {}
         response['Pred'] = classes
-        response['PredSM'] = sm_classes
+        #response['PredSM'] = sm_classes
 
         return JSONResponse(response)
     elif request.method == 'POST':

@@ -25,7 +25,7 @@ SECRET_KEY = '(89n28#+z*pwv$_#g)=%kc^gb8-$l%m1&v1a9b34cv5^=v!j+t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['DjangoMlEnv-env.myspm9vekf.us-east-1.elasticbeanstalk.com', 'localhost']
+ALLOWED_HOSTS = ['DjangoMlEnv-env.myspm9vekf.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
