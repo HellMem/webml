@@ -1,5 +1,4 @@
 
-'''
 import requests
 import json
 
@@ -28,4 +27,3 @@ if __name__ == "__main__":
     pred =iris_prediction(6.4, 3.2, 4.5, 1.5)
     print(pred)
 
-'''
